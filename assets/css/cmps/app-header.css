@@ -1,0 +1,31 @@
+header {
+    background: #eff4f8;
+    border-bottom: 2px solid #ffffff00;
+}
+
+.app-header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav {
+align-items: center;
+}
+
+nav a {
+    margin: .3em;
+    font-size: 30px;
+}
+
+nav a:active {
+    color: purple;
+}
+
+nav a.active {
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+.app-header img{
+    width: 20%;
+}

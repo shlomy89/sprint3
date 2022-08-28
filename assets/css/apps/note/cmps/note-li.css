@@ -1,0 +1,10 @@
+.todo-li {
+  padding-top: 0.5rem;
+}
+.todo-li-text {
+  display: inline;
+  padding-inline-start: 0.5em;
+}
+.todo-li-checked {
+  text-decoration: line-through;
+}

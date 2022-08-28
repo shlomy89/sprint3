@@ -1,0 +1,24 @@
+.mail-compose{
+
+    transition: 1s;
+    outline: none;
+    width: 100%;
+}
+
+.compose-form {
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 15px;
+    /* width: 100%; */
+}
+
+.to-input, .subject-input, .body-input {
+    background-color: #eff4f8;
+    border: 1px solid #ffffff;
+    padding-left: 20px;
+
+}
+
+.body-input {
+color: #eff4f8;
+}
+

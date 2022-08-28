@@ -1,0 +1,48 @@
+.note-list-layout {
+  width: 100%;
+  padding: 0 2rem;
+  display: grid;
+  gap: 0.875rem;
+  justify-content: center;
+  /* justify-items: center; */
+  /* grid-auto-flow:dense; */
+  grid-template-columns: repeat(auto-fit, 360px);
+  margin-bottom: 4rem;
+}
+.note {
+  background-color: aqua;
+}
+.note-list-layout .note.level-1 {
+  height: 100px;
+  grid-row: span 1;
+}
+
+.note-list-layout .note.level-2 {
+  height: 200px;
+  grid-row: span 2;
+}
+
+.note-list-layout .note.level-3 {
+  grid-row: span 3;
+  height: 300px;
+}
+
+.note-list-layout .note.level-4 {
+  height: 400px;
+  grid-row: span 4;
+}
+
+.note-list-layout .note.level-5 {
+  height: 500px;
+  grid-row: span 5;
+}
+
+.note-list-layout .note.level-6 {
+  height: 600px;
+  grid-row: span 6;
+}
+
+.note-list-layout .note.level-7 {
+  height: 700px;
+  grid-row: span 7;
+}

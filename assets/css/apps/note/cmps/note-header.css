@@ -1,0 +1,64 @@
+.note-header {
+  padding: 0.5rem;
+  width: 100%;
+  box-shadow: #00000061 0px 0.5px 0px 0.5px;
+  margin-bottom: 3rem;
+}
+.note-header-ui {
+  width: 100%;
+}
+.user-prefrences{
+    min-width: 14.5rem;
+}
+.note-header-settings > li {
+  width: 48px;
+  height: 48px;
+}
+.flex.note-header-search-form {
+  width: 100%;
+  justify-content: start;
+  
+}
+.note-search-form-btn{
+  background: none;
+  color: inherit;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0 1rem;
+}
+.note-search-form-input {
+  flex: 1;
+  max-width: 720px;
+  background-color: var(--bg-clr);
+  border: none;
+  height: 48px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-inline-start: 1.5rem;
+  /* border-bottom-right-radius: 5px; */
+  /* border-top-right-radius: 5px; */
+  border-radius: 5px;
+}
+
+.note-search-form-input:focus-visible{
+  background-color: transparent;
+  box-shadow: #00000061 0 0 6px 1px;
+  outline: none;
+}
+.note-search-form-input:focus-visible::placeholder{
+  color: transparent;
+}
+
+.note-header-title-container {
+  justify-content: flex-start;
+  min-width: 14.5rem;
+  padding-inline-start: 1.875rem;
+}
+.note-header-title h1 {
+  padding-inline-end: 0.25rem;
+}
+.note-header-title > div > img {
+  padding-inline-start: 0.25rem;
+  height: auto;
+}

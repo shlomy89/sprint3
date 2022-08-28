@@ -1,0 +1,26 @@
+.note-controls{
+    flex: end;
+    padding-bottom: 0.125rem;
+    padding-left: 0.225rem;
+    padding-right: 0.225rem;
+    width: 100%;
+}
+.note-btn{
+    font-size: 1.2rem;
+    background: none;
+    color: inherit;
+    border: none;
+    display:flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    padding: 0.815rem 1rem;
+    width: 48px;
+    height: 48px;
+    transition: background-color 0.3ms ease-in-out;
+}
+
+.note-btn:hover{
+    background-color: var(--bg-clr);
+    border-radius: 50%;
+}

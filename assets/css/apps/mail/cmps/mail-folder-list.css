@@ -1,0 +1,33 @@
+.folder-list {
+    min-width: 170px;
+    text-align: center;
+    background-color: #fefefe;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 50px;
+    height: 100vh;
+}
+
+.folder-list a:first-child {
+    margin-top: 0;
+}
+
+.folder-list button {
+    border: 0px solid;
+    border-radius: 5px;
+    width: 50%;
+    padding: 7px;
+    font-size: 1.1rem;
+    transition: .2s;
+    color: #4c4c4c;
+}
+
+.folder-list a {
+    margin-top: 20px;
+}
+
+.folder-list button:hover {
+    background-color: #e4ebf1;
+    color: black;
+    width: 55%;
+}

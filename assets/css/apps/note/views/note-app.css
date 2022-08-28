@@ -1,0 +1,20 @@
+:root {
+  --font-clr: #5f6368;
+  --font-clr2: #202124;
+  --bg-clr: #f1f3f4;
+  --note-bg1: #f28b82;
+  --note-bg2: #fbbc04;
+  --note-bg3: #fff475;
+  --note-bg4: #ccff90;
+  --note-bg5: #a7ffeb;
+  --note-bg6: #fdcfe8;
+}
+
+@font-face {
+  font-family: product-sans;
+  src: url(../../../../fonts/Product\ Sans\ Regular.ttf);
+}
+@font-face {
+  font-family: roboto;
+  src: url(../../../../fonts/Roboto-Regular.ttf);
+}

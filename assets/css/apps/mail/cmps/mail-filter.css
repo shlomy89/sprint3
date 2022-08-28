@@ -1,0 +1,21 @@
+.filter-container {
+
+    font-size: 1.2rem;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    background-color: #fefefe;
+
+}
+
+.read-unread-all {
+    margin-left: 10px;
+}
+
+.filter-container input {
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    max-width: 170px;
+}

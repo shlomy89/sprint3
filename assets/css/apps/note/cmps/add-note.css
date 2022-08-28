@@ -1,0 +1,38 @@
+.add-note{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width:600px;
+    box-shadow: #00000061 0 0 6px 1px;
+    margin-bottom: 3rem;
+}
+.add-note-type{
+    width: 600px;
+    padding: 0 1rem;
+    gap: 10px;
+}
+.add-note-type>button{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    outline: inherit;
+    cursor: text;
+}
+.add-note-type>button:not(.text-btn){
+    display:flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    padding: 0.815rem 1rem;
+    width: 48px;
+    transition: background-color 0.3ms ease-in-out;
+}
+.add-note-type>button:not(.text-btn):hover{
+    background-color: var(--bg-clr);
+    border-radius: 50%;
+}
+.text-btn{
+    text-align: start;
+}

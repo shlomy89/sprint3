@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.122);
+}
+
+.user-msg {
+    position: absolute;
+    width: 30%;
+    margin: 20px auto;
+    padding: 30px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 5px #ccc;
+}
+
+h3 {
+    font-family: Quicksand;
+}
+
+.user-msg.success {
+    background-color: rgb(201, 228, 250);
+}
+
+.close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    right: 15px;
+    top: 25px;
+    text-align: center;
+    font-size: 1.6em;
+    cursor: pointer;
+}

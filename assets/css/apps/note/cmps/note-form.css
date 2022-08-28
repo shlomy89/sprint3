@@ -1,0 +1,19 @@
+.note-form {
+  margin: auto;
+}
+.note-form > input {
+  border: none;
+  height: 48px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-inline-start: 1rem;
+}
+.note-form > input:first-of-type {
+  border-radius: inherit;
+}
+.note-form > input:focus-visible {
+  outline-width: 0;
+}
+.note-form > input:focus-visible::placeholder {
+  color: transparent;
+}

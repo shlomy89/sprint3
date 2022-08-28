@@ -38,10 +38,11 @@
 @import "./apps/note/cmps/note-li.css";
 
 /* Email Cmps */
-@import "assets/css/apps/mail/cmps/mail-loading-spinner.css";
-@import "assets/css/apps/mail/cmps/mail-folder-list.css";
-@import "assets/css/apps/mail/cmps/mail-list.css";
-@import "assets/css/apps/mail/cmps/mail-app.css";
-@import "assets/css/apps/mail/cmps/mail-filter.css";
-@import "assets/css/apps/mail/cmps/mail-preview.css";
-@import "assets/css/apps/mail/cmps/mail-compose.css";
+@import "../../assets/css/apps/mail/cmps/mail-loading-spinner.css";
+@import "../../assets/css/apps/mail/cmps/mail-folder-list.css";
+@import "../../assets/css/apps/mail/cmps/mail-list.css";
+@import "../../assets/css/apps/mail/cmps/mail-app.css";
+@import "../../assets/css/apps/mail/cmps/mail-filter.css";
+@import "../../assets/css/apps/mail/cmps/mail-preview.css";
+@import "../../assets/css/apps/mail/cmps/mail-compose.css";
+
